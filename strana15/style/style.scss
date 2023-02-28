@@ -1,0 +1,14 @@
+function openModal() {
+    document.getElementById("myModal").style.display = "block";
+  }
+  
+  function closeModal() {
+    document.getElementById("myModal").style.display = "none";
+  }
+  
+  function confirmPurchase() {
+    // Perform actions when the user confirms the purchase
+    alert("Thank you for your purchase!");
+    closeModal();
+  }
+  
